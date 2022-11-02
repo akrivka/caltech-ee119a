@@ -1,0 +1,8 @@
+v 4
+file . "ic74194.vhd" "5127ffe51f7e622ac942c70052a0189eb4d74b16" "20221102071546.315":
+  entity ic74194 at 3( 9) + 0 on 45;
+  architecture dataflow of ic74194 at 21( 407) + 0 on 46;
+file . "ic74194_TB.vhd" "5ffb0cf23bbfe153074a23658d145dd821389f92" "20221102071546.334":
+  entity ic74194_tb at 21( 1037) + 0 on 47;
+  architecture tb_architecture of ic74194_tb at 28( 1152) + 0 on 48;
+  configuration testbench_for_ic74194 at 243( 7815) + 0 on 49;

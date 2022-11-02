@@ -1,0 +1,8 @@
+-- PROBLEM 1
+ap = (!g & !f) # (a & c & !d) # (b & f & !e) # (g & e)
+bp = (!g & !f) # (a & b) # (g & e)
+cp = g # a
+dp = (!g & !f) # (f & !e) # (b & !c)
+ep = (!g & !f) # (a & f !e)
+fp = (a & b & c & !f) # (b & g & f) # (a & !b)
+gp = (!g & !f) # (a & !b) # (a & b & d & g) # (!a & b)

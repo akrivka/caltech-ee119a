@@ -1,0 +1,9 @@
+-- PROBLEM 3
+rst_helper = rst # (q0 & q1 & q5 & q6)
+q0p = !rst_helper & !q0
+q1p = rst_helper # (q0 $ q1)
+q2p = !rst_helper & ((q0 & q1) $ q2)
+q3p = rst_helper # ((q0 & q1 & q2) $ q3)
+q4p = !rst_helper & ((q0 & q1 & q2 & q3) $ q4)
+q5p = !rst_helper & ((q0 & q1 & q2 & q3 & q4) $ q5)
+q6p = !rst_helper & ((q0 & q1 & q2 & q3 & q4 & q5) $ q6)
