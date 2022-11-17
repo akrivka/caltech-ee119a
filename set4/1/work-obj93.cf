@@ -1,8 +1,8 @@
 v 4
-file . "BCD2Binary8_TB.vhd" "0d323363074bb1004a2df06f27899e9e66733f44" "20221101001939.495":
-  entity bcd2binary8_tb at 20( 875) + 0 on 232;
-  architecture tb_architecture of bcd2binary8_tb at 28( 1000) + 0 on 233;
-  configuration testbench_for_bcd2binary8 at 93( 2911) + 0 on 234;
-file . "BCD2Binary8.vhd" "002c2102ffe1ee0d0797235201e0208d0b5d0fe2" "20221101001939.477":
-  entity bcd2binary8 at 3( 15) + 0 on 230;
-  architecture dataflow of bcd2binary8 at 15( 268) + 0 on 231;
+file . "BCD2Binary8_TB.vhd" "bebae07fae6d57d754746418cd92638db3a75bd4" "20221103055007.645":
+  entity bcd2binary8_tb at 20( 875) + 0 on 337;
+  architecture tb_architecture of bcd2binary8_tb at 28( 1000) + 0 on 338;
+  configuration testbench_for_bcd2binary8 at 93( 2911) + 0 on 339;
+file . "BCD2Binary8.vhd" "2dcb0563abaeb5db90026387dd76adbbf7ef14d4" "20221103055007.626":
+  entity bcd2binary8 at 14( 634) + 0 on 335;
+  architecture dataflow of bcd2binary8 at 32( 1001) + 0 on 336;

@@ -1,15 +1,15 @@
 v 4
-file . "UniversalSR8_TB.vhd" "c86bff8cb4f2a3623f343e6f65697888ea6b617c" "20221102075216.090":
-  entity universalsr8_tb at 19( 932) + 0 on 214;
-  architecture tb_architecture of universalsr8_tb at 25( 1055) + 0 on 215;
-  configuration testbench_for_universalsr8 at 242( 7941) + 0 on 216;
-file . "ic74194.vhd" "a65030b050ae344b824ef63f18a049a7f880f9f5" "20221102075216.042":
-  entity ic74194 at 3( 9) + 0 on 210;
-  architecture dataflow of ic74194 at 19( 405) + 0 on 211;
-file . "ic74194_TB.vhd" "9773874252b17e799107dff891211fbeaf002e5d" "20221102074630.334":
-  entity ic74194_tb at 21( 1037) + 0 on 155;
-  architecture tb_architecture of ic74194_tb at 28( 1152) + 0 on 156;
-  configuration testbench_for_ic74194 at 244( 8053) + 0 on 157;
-file . "UniversalSR8.vhd" "84386575387ace4726692288c6238cff7272121b" "20221102075216.066":
-  entity universalsr8 at 2( 8) + 0 on 212;
-  architecture structural of universalsr8 at 19( 426) + 0 on 213;
+file . "UniversalSR8.vhd" "dd7be32b0d5ee4c251f3976e06c96fe75241b24d" "20221102211403.963":
+  entity universalsr8 at 25( 978) + 0 on 248;
+  architecture structural of universalsr8 at 48( 1635) + 0 on 249;
+file . "ic74194_TB.vhd" "9773874252b17e799107dff891211fbeaf002e5d" "20221102211352.025":
+  entity ic74194_tb at 21( 1037) + 0 on 243;
+  architecture tb_architecture of ic74194_tb at 28( 1152) + 0 on 244;
+  configuration testbench_for_ic74194 at 244( 8053) + 0 on 245;
+file . "ic74194.vhd" "f51d017cfe7efb39e9c5fcb1cd4c7993fe581c05" "20221102211403.942":
+  entity ic74194 at 13( 406) + 0 on 246;
+  architecture dataflow of ic74194 at 36( 1031) + 0 on 247;
+file . "UniversalSR8_TB.vhd" "c86bff8cb4f2a3623f343e6f65697888ea6b617c" "20221102211403.986":
+  entity universalsr8_tb at 19( 932) + 0 on 250;
+  architecture tb_architecture of universalsr8_tb at 25( 1055) + 0 on 251;
+  configuration testbench_for_universalsr8 at 242( 7941) + 0 on 252;

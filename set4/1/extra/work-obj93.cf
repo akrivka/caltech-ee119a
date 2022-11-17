@@ -1,0 +1,10 @@
+v 4
+file . "BCD2BinaryGeneric_TB.vhd" "367887da029e4c0792342ddfb291052ed4f55b22" "20221102230544.158":
+  entity bcd2binarygeneric_tb at 13( 552) + 0 on 502;
+  architecture tb_architecture of bcd2binarygeneric_tb at 19( 679) + 0 on 503;
+  configuration testbench_for_bcd2binary at 81( 2585) + 0 on 504;
+file . "BCD2BinaryGeneric.vhd" "0ca03a4da696614616b6b9cda4c81ea439f40d7f" "20221102230544.140":
+  entity helper at 14( 634) + 0 on 498;
+  architecture dataflow of helper at 37( 1038) + 0 on 499;
+  entity bcd2binary at 42( 1157) + 0 on 500;
+  architecture dataflow of bcd2binary at 64( 1588) + 0 on 501;
